@@ -1,12 +1,14 @@
 <template>
   <div id="app">
     <div class="">
+
       <button type="button" name="button"
       @click="show = !show">
         <span v-if="!show">Показать</span>
         <span v-if="show">Скрыть</span> пример 1</button>
-      <HelloWorld v-if="show" msg="НахуюНамотано"/>
+      <HelloWorld v-if="show" msg="Не намотано"/>
     </div>
+
     <div class="">
       <button type="button" name="button"
       @click="show2 = !show2">
